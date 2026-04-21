@@ -1,34 +1,58 @@
 <html>
 <head>
 <title>Skyline Properties</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+padding: 20px;
+background-color: #f8f9fa;
+}
+table td {
+background: white;
+border-radius: 10px;
+}
+h3 {
+    color: #0d6efd;
+}
+</style>
+
 </head>
+
 <body>
+
 <center>
-<h2>Skyline Properties</h2>
+<h2 class="text-primary">Skyline Properties</h2>
 </center>
-<label>Select BHK:</label>
-<select>
+
+<label class="fw-bold">Select BHK:</label>
+<select class="form-select w-25 mb-3">
 <option>All</option>
 <option>1 BHK</option>
 <option>2 BHK</option>
 <option>3 BHK</option>
 </select>
-<br><br>
-<table border="1" width="100%" cellpadding="10">
+
+<table class="table table-bordered text-center">
 <tr>
 <td>
 <h3>2 BHK Flat</h3>
 <p>Pune - ₹70 Lakhs</p>
+<button class="btn btn-primary">View</button>
 </td>
+
 <td>
 <h3>3 BHK Villa</h3>
 <p>Mumbai - ₹1.2 Cr</p>
+<button class="btn btn-success">View</button>
 </td>
+
 <td>
 <h3>1 BHK Apartment</h3>
 <p>Nagpur - ₹40 Lakhs</p>
+<button class="btn btn-danger">View</button>
 </td>
 </tr>
 </table>
+
 </body>
 </html>
